@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lacquer&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container::before{
+    content: "";
+    background: url(../static/img/contact2.jpg) center/cover no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    opacity: 1;
+}
+.container{
+    margin-top: 15px;
+    height: 80vh;
+}
+.container h1{
+    color: brown;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Lacquer', cursive;
+}
+.myform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputclass{
+    width: 40%;
+    padding: 5px 10px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid #4c2424;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+}
+.btn{
+    padding: 5px 19px;
+    font-size: 17px;
+    border: 2px solid #4c3030;
+    border-radius: 8px;
+    margin: 15px;
+    outline: none;
+    color: white;
+    background-color: #9e3c3c;
+}

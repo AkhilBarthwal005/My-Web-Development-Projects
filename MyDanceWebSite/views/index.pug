@@ -1,0 +1,55 @@
+doctype html
+html
+    head
+        title="Mr.Hunt Dance Academy"
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo 
+                    img(src="/static/img/logo.png")
+                    |MHDA
+
+                li #[a(href="/") Home]
+                li #[a(href="/") Services]
+                li #[a(href="/") About]
+                li #[a(href="/") Class Info]
+                li #[a(href="/") Contact us]
+        section#introsection
+            div Welcome to Mr.Hunt Dance Academy.
+            div.small Dream|Believe|Achieve.
+        section#missionsection
+            h2 Our Mission
+            div.card 
+                h3 Make you perfect in Dance
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/img1.png")
+                    div.card-containt
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis fugit facilis at, quasi quod. Enim porro eum eius cum, nisi consequuntur dignissimos corporis necessitatibus maiores atque minus, libero labore.
+            div.card 
+                h3 Dance like the Way you want
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/img2.png")
+                    div.card-containt
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis fugit facilis at, quasi quod. Enim porro eum eius cum, nisi consequuntur dignissimos corporis necessitatibus maiores atque minus, libero labore.
+            div.card 
+                h3 Enjoy every movement of Dance
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/img3.png")
+                    div.card-containt
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis fugit facilis at, quasi quod. Enim porro eum eius cum, nisi consequuntur dignissimos corporis necessitatibus maiores atque minus, libero labore.
+        section#sponsorsection
+            h2 Our Sponsor's
+            div#sponsor
+                img(src="/static/img/logo1.png", alt="Sponsor Images", Class="spimages")
+                img(src="/static/img/logo2.png", alt="Sponsor Images", Class="spimages")
+                img(src="/static/img/logo3.png", alt="Sponsor Images", Class="spimages")
+                img(src="/static/img/logo4.png", alt="Sponsor Images", Class="spimages")
+        footer#footer
+            | Copyright © 2020 Mr.HuntDanceAcademy. | All Right are Reserved.
+    script
+        include ../static/index.js

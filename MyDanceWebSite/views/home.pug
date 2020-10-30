@@ -1,0 +1,41 @@
+extends base.pug
+block script
+    script
+        include ../static/index.js
+block style
+        style
+            include ../static/style.css
+block content
+        section#introsection
+            div Welcome to Mr.Hunt Dance Academy.
+            div.small Dream|Believe|Achieve.
+        section#missionsection
+            h2 Our Mission
+            div.card 
+                h3 Make you perfect in Dance
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/img1.png")
+                    div.card-containt
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis fugit facilis at, quasi quod. Enim porro eum eius cum, nisi consequuntur dignissimos corporis necessitatibus maiores atque minus, libero labore.
+            div.card 
+                h3 Dance like the Way you want
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/img2.png")
+                    div.card-containt
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis fugit facilis at, quasi quod. Enim porro eum eius cum, nisi consequuntur dignissimos corporis necessitatibus maiores atque minus, libero labore.
+            div.card 
+                h3 Enjoy every movement of Dance
+                div.card-box 
+                    div.card-img 
+                        img(src="/static/img/img3.png")
+                    div.card-containt
+                        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam officiis fugit facilis at, quasi quod. Enim porro eum eius cum, nisi consequuntur dignissimos corporis necessitatibus maiores atque minus, libero labore.
+        section#sponsorsection
+            h2 Our Sponsor's
+            div#sponsor
+                img(src="/static/img/logo1.png", alt="Sponsor Images", Class="spimages")
+                img(src="/static/img/logo2.png", alt="Sponsor Images", Class="spimages")
+                img(src="/static/img/logo3.png", alt="Sponsor Images", Class="spimages")
+                img(src="/static/img/logo4.png", alt="Sponsor Images", Class="spimages")

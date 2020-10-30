@@ -1,0 +1,22 @@
+//- this is base of website which is common to my all pages
+doctype html
+html
+    title="Mr.Hunt Dance Academy"
+    block script
+    //- here every block is replaced by commands which is writen is home file because we extend the base file in it.
+    block style 
+body
+    nav#navbar
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                |MHDA
+
+            li #[a(href="/") Home]
+            li #[a(href="/") Services]
+            li #[a(href="/") About]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact us]
+    block content
+    footer#footer
+        | Copyright © 2020 Mr.HuntDanceAcademy. | All Right are Reserved.
