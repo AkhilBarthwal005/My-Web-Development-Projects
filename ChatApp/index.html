@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Chat - Realtime Node Socket-io Chat App</title>
+    <!--it will connet server to clint-->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script> 
+    <script defer src="js/client.js"></script> <!--her defer is used to load the javascript file after the html file-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media= "screen and (max-width:800px)" href="css/phone.css">
+</head>
+<body>
+    <div class="nav">
+        <img class=logo src="/logo.png" alt="Logo">
+        <h1>Welcome to Let's Chat App</h1>
+    </div>
+    <div class="container">
+        <!-- <div class="message right">Akhil:Heyy how are you??</div>
+        <div class="message left">Ajeet:I am fine bro how about you??</div> -->
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageinput" id="messageinput">
+            <button class="btn" type="submit">send</button>
+        </form>
+    </div>
+</body>
+</html>
