@@ -1,0 +1,11 @@
+#messageinput{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+.btn{
+    margin: 10px 5px;
+}
+h1{
+    font-size: 20px;
+}
